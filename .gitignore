@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build
+dist/
+dist-ssr/
+
+# Cache
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+cache/
+
+# Vite
+*.local
+vite.config.*.timestamp-*
+report.html
+
+# Package managers
+yarn.lock
+npm-debug.log*
+.pnpm-error.log*
+.pnpm-debug.log
+
+# Coverage
+tests/**/coverage/
+coverage/
+.nyc_output/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+.history/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+*~
+
+# Temp
+*.tmp
+*.temp
+*.bak
+
+# Debug
+.eslint-debug.log
